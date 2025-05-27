@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Archivo';
+    src: url(/static/assets/font/Archivo/Archivo-VariableFont_wdth,wght.ttf);
+}
+
+* {
+    font-family: 'Archivo', 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
