@@ -53,7 +53,7 @@ header {
     height: 70px;
 }
 
-.home, .servicos, .produtos, .sobrenos, .contato {
+.home, .servicos, .contato {
     display: flex;
     color:aliceblue;
     align-items: center;
@@ -62,6 +62,6 @@ header {
     transition: 0.5s;
 }
 
-.home:hover, .servicos:hover, .produtos:hover, .sobrenos:hover, .contato:hover {
+.home:hover, .servicos:hover, .contato:hover {
     color:black;
 }
