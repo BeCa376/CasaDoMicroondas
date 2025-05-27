@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Archivo';
+    src: url(/static/assets/font/Archivo/Archivo-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+    font-family: 'Archivo', 'Open Sans';
+    font-size: 30px;
+}
+
+body, html{
+    display:flex;
+}
+
+header {
+    display: flex;
+    background-color: #ff5926;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header {
+    display: flex;
+    width: 221vh;
+    margin-top: -10px;
+    margin-left: -10px;
+    gap: 20px;
+    height: 80px;
+    background-color: #ff5926;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.paginas{
+    display: flex;
+    width: 221vh;
+    margin-top: -10px;
+    margin-left: -10px;
+    gap: 20px;
+    height: 80px;
+    background-color: #ff5926;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: 70px;
+}
+
+.home, .servicos, .produtos, .sobrenos, .contato {
+    display: flex;
+    color:aliceblue;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.home:hover, .servicos:hover, .produtos:hover, .sobrenos:hover, .contato:hover {
+    color:black;
+}
