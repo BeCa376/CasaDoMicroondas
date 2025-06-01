@@ -1,14 +1,94 @@
-@font-face {
-    font-family: 'Archivo';
-    src: url(/static/assets/font/Archivo/Archivo-VariableFont_wdth,wght.ttf);
+.home-texto {
+  max-width: 1000px;
+  margin: 90px auto;
+  padding: 0 20px;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+  font-size: 18px;
 }
 
-* {
-    font-family: 'Archivo', 'Open Sans', sans-serif;
-    font-size: 16px;
+.home-texto h1 {
+  text-align: left;
+  font-size: 36px;
+  color: #ff5926;
+  white-space: nowrap;
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
+.home-texto h2 {
+  text-align: left;
+  font-size: 20px;
+  color: #ff5926;
+}
+
+.pt1, .pt2 {
+  margin-top: 120px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.imgconserto, .imgcasa {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(124, 122, 122, 0.5);
+}
+
+.pt1 .texto, .pt2 .texto {
+  flex: 1;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+
+.pt1 p, .pt2 p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+}
+
+.clientes {
+  margin: 80px auto 100px;
+  text-align: center;
+  color: #ff5926;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.clientes h3 {
+  flex: 1;
+  font-size: 25px;
+  line-height: 1.5;
+  color: #ff5926;
+  text-align: center;
+}
+
+.imagens-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  max-width: none; 
+  margin: 0 auto;
+}
+
+.cl-img {
+  width: 400px;
+  align-items: center;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(124, 122, 122, 0.5);
+  object-fit: cover;
 }

@@ -1,14 +1,38 @@
-@font-face {
-    font-family: 'Archivo';
-    src: url(/static/assets/font/Archivo/Archivo-VariableFont_wdth,wght.ttf);
+.servicos {
+  max-width: 1000px;
+  margin: 10px auto;
+  padding: 20px;
+  text-align: center;
 }
 
-* {
-    font-family: 'Archivo', 'Open Sans', sans-serif;
-    font-size: 16px;
+.servicos h1 {
+  font-size: 36px;
+  color: #ff5926;
+  margin-bottom: 40px;
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
+.lista-servicos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+}
+
+.servico {
+  background-color: #fffaf7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  color: #333;
+  text-align: left;
+}
+
+.servico h2 {
+  font-size: 22px;
+  color: #ff5926;
+  margin-bottom: 10px;
+}
+
+.servico p {
+  font-size: 16px;
+  line-height: 1.6;
 }

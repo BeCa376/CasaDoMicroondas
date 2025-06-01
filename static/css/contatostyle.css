@@ -1,14 +1,113 @@
-@font-face {
-    font-family: 'Archivo';
-    src: url(/static/assets/font/Archivo/Archivo-VariableFont_wdth,wght.ttf);
+.cont-texto {
+  max-width: 1000px;
+  margin: 60px auto 20px auto;
+  padding: 20px;
+  color: #333;
+  line-height: 2;
+  font-size: 18px;
 }
 
-* {
-    font-family: 'Archivo', 'Open Sans', sans-serif;
-    font-size: 16px;
+.cont-texto p {
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
+.cont-texto h1 {
+  text-align: left;
+  font-size: 36px;
+  color: #ff5926;
+  white-space: nowrap;
+  margin-bottom: 40px;
+}
+
+.cont-texto h2 {
+  text-align: left;
+  font-size: 20px;
+  color: #ff5926;
+  margin-bottom: 40px;
+}
+
+hr {
+  height: 10px;
+  opacity: 0%;
+}
+
+.enderecos strong {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  flex: 1;
+  line-height: 1.5;
+}
+
+.ende {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.formulario-container {
+  display: flex;
+  max-width: 1000px;
+  margin: 100px auto;
+  gap: 20px;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.formulario-esquerda,
+.formulario-direita {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+input, textarea {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: #fffaf7;
+  resize: none;
+}
+
+.botao-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.botao-container button {
+  padding: 5px 30px;
+  background-color: #ff5926;
+  color: white;
+  border: 1px solid rgba(124, 122, 122, 0.5);
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botao-container button:hover {
+  background-color: #e04d1f;
+}
+
+@media (max-width: 768px) {
+  .formulario-container {
+    flex-direction: column;
+  }
 }
