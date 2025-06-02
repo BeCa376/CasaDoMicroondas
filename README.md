@@ -1,9 +1,7 @@
-#Relatório de melhorias do site: Casa do Microondas
-#Camila Custódio Fedeli
-#Maria Eduarda Becher Santos
-#Natália Custódio Cunha
-#Sófia Helena Rodrigues Villalba
-#Professor: Sidney Leandro de Oliveira
+Relatório de melhorias do site: Casa do Microondas
+
+Camila Custódio Fedeli, Maria Eduarda Becher Santos, Natália Custódio Cunha, Sófia Helena Rodrigues Villalba
+Professor: Sidney Leandro de Oliveira
 
 1. Introdução
 O site Casa do Microondas é especializado na prestação de serviços e na comercialização de produtos voltados para o segmento de micro-ondas. Nele, os clientes encontram acessórios e aparelhos novos e seminovos, além de um serviço técnico especializado em consertos, manutenção preventiva e troca de componentes.
