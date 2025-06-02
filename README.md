@@ -18,27 +18,49 @@ A seguir, detalham-se as mudanças que foram implementadas no site, contemplando
 O projeto foi organizado com uma estrutura modular e profissional:
 
 CasaDoMicroondas/
+
 ├── static/
+
 │   ├── assets/
+
 │   │   ├── font/
+
 │   │   │   └── Garet-Book.ttf
+
 │   │   └── img/
+
 │   │       └── [várias imagens do projeto]
+
 │   ├── components/
+
 │   │   ├── header.html
+
 │   │   └── footer.html
+
 │   ├── css/
+
 │   │   ├── index.css
+
 │   │   ├── main.css
+
 │   │   ├── homestyle.css
+
 │   │   ├── servicosstyle.css
+
 │   │   └── contatostyle.css
+
 │   └── js/
+
 │       └── index.js
+
 ├── templates/
+
 │   ├── home.html
+
 │   ├── servicos.html
+
 │   └── contato.html
+
 └── README.md
 
 3.2 Sistema de Componentes Reutilizáveis
